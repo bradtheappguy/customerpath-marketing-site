@@ -55,6 +55,9 @@ h2.subTitle:after, h1.noSubtitle:after{
 .paralaxText blockquote:before, .paralaxText blockquote:after {
 	color:#fff;
 }
+.paralaxText2 blockquote:before, .paralaxText2 blockquote:after {
+	color:#fff;
+}
 #home, #paralaxSlice1, #paralaxSlice2, #paralaxSlice3, #paralaxSlice4 {
 	background-color:#3d0b06;
 }
@@ -72,9 +75,13 @@ h2.subTitle:after, h1.noSubtitle:after{
 	background-image: url('../images/theme-pics/paralax-grey-3.jpg');
 }
 #paralaxSlice4 {
-	background-image: url('../images/theme-pics/paralax-4.jpg');
+	/*background-image: url('../images/theme-pics/paralax-4.jpg');*/
+	background-color:#3d0b06;
 }
 .paralaxText blockquote, .paralaxText h1, .paralaxText h2, .paralaxText h3, .paralaxText p, .paralaxText i{
+	color:#fff;
+}
+.paralaxText2 blockquote, .paralaxText2 h1, .paralaxText2 h2, .paralaxText2 h3, .paralaxText2 p, .paralaxText2 i{
 	color:#fff;
 }
 

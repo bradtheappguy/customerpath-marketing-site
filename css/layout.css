@@ -213,6 +213,28 @@ h1.noSubtitle{
 	letter-spacing: 0.1em;
 }
 
+.paralaxText2 h2 {
+	font-size: 3.21em;
+	font-weight: 800;
+	line-height:1.5em;
+	text-transform:uppercase;
+	padding:0.5em 0;
+	/*text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);*/
+}
+
+.paralaxText2 blockquote {
+	font-size: 33px;
+	line-height: 33px;
+	margin-bottom: 0;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 0;
+	border: none;
+	text-transform: uppercase;
+	text-align: center;
+	/*text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);*/
+	letter-spacing: 0.1em;
+}
 
 h2 {
 	font-size:24px;
@@ -359,6 +381,10 @@ hr {
 	font-size: 44px;
 	line-height: 44px;
 	}
+	.paralaxText2 blockquote {
+	font-size: 44px;
+	line-height: 44px;
+	}
 }
 
 @media(min-width:992px){}
@@ -473,6 +499,13 @@ hr {
 .paralaxText {
 	padding-top:66px;
 	padding-bottom:66px;
+	text-align:center;
+	position: relative;
+
+}
+.paralaxText2 {
+	padding-top:16px;
+	padding-bottom:16px;
 	text-align:center;
 	position: relative;
 
@@ -609,7 +642,7 @@ hr {
 /* FOOTER 
 ================================================== */
 
-footer{padding:44px 0;}
+footer{padding:0px 0;}
 #footerLogo {margin-bottom: 22px;}
 #footerRights {padding:22px;}
 
