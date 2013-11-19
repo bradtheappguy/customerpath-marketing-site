@@ -360,6 +360,26 @@ blockquote:after {
 	font-family: 'custom-icons';
 	margin-left:0.5em;
 }
+.paralaxText2 blockquote:before {
+	content:'\e910';
+	font-family: 'custom-icons';
+	margin-right:0.5em;
+}
+.paralaxText2 blockquote:after {
+	content:'\e910';
+	font-family: 'custom-icons';
+	margin-left:0.5em;
+}
+.paralaxText blockquote:before {
+	content: none;
+	font-family: 'custom-icons';
+	margin-right:0.5em;
+}
+.paralaxText blockquote:after {
+	content:none;
+	font-family: 'custom-icons';
+	margin-left:0.5em;
+}
 .quoteRow blockquote:before, .quoteRow blockquote:after {
 	content:none;
 }
@@ -382,7 +402,7 @@ hr {
 	line-height: 44px;
 	}
 	.paralaxText2 blockquote {
-	font-size: 44px;
+	font-size: 34px;
 	line-height: 44px;
 	}
 }
@@ -497,8 +517,8 @@ hr {
 }
 .maskParent{position: relative; height:100%;}
 .paralaxText {
-	padding-top:66px;
-	padding-bottom:66px;
+	padding-top:36px;
+	padding-bottom:36px;
 	text-align:center;
 	position: relative;
 

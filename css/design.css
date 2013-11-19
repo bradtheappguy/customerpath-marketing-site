@@ -419,6 +419,15 @@ legend {
 .navbar-default .navbar-toggle .icon-bar{
 	background-color:#c7bfbe; /* e0d8d6*/
 }
+.col-md-3 {
+	width: 20%;
+}
+.col-md-3  .teamemail {
+	padding: 16px 0px;
+	text-align:center;
+	font-size:14px;
+}
+
 
 /* END CSS FRAMEWORK
 ================================================== */

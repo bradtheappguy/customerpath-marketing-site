@@ -10,8 +10,7 @@
 		================================================== -->
 		<meta charset="utf-8">
 		<title>CustomerPath - Quick Geolocation Analytics</title>
-		<meta name="description" content="Ashley is a One Page Bootstrap 3 Premium website Template, using nice Paralax effect, HTML5, CSS3 and Twitter Bootstrap 3">
-		<meta name="author" content="Little NEKO">
+		<meta name="description" content="CustomerPath helps businesses understand their customer base through real-time analytics integrated into Salesforce.">
 		<!-- Mobile Specific Metas
 		================================================== -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -62,9 +61,9 @@
 							<div class="collapse navbar-collapse navbar-ex1-collapse" id="scrollTarget">
 								<ul class="nav navbar-nav pull-right">
 									<li class="active"><a href="#home"><i class="icon-home-outline"></i>Home</a> </li>
-									<li><a href="#features"><i class="icon-thumbs-up"></i>Features</a> </li>
-                                    <li><a href="#api"><i class="icon-comment"></i>API</a> </li>
-									<li><a href="#team"><i class="icon-users"></i>Team</a> </li>
+									<li><a href="#features"><i class="icon-star"></i>Features</a> </li>
+                                    <li><a href="#api"><i class="icon-flow-merge"></i>Platform</a> </li>
+									<li><a href="#team"><i class="icon-users-outline"></i>Team</a> </li>
 									<li><a href="#signupSlice"><i class="icon-mail"></i>Sign Up</a> </li>
 								</ul>
 							</div>
@@ -82,11 +81,11 @@
 									<ul class="slides">
 										<li>
 											<h1>CustomerPath</h1>
-											<h2>Simple Location Based Analytics</h2>
+											<h2>Finally understand your store foot traffic. Take action.</h2>
 										</li>
                                         <li>
-											<h1>In-Store Analytics</h1>
-                                            <h2>Detailed geolocation data to understand your customers</h2>
+											<h1>In-Store Analytics Made Simple</h1>
+                                            
 										</li>
                                         <li>
 											<h1>Quick, Easy Installation</h1>
@@ -114,7 +113,7 @@
 										<div class="row">
 										<div class="col-md-8">
 											<h1>
-												<strong>CustomerPath</strong> connect real world analytics with your existing Salesforce POS and CRM data to strategize sales. </h1>
+												<strong>CustomerPath</strong> connect real world analytics with your existing Salesforce POS and CRM data to microtarget users. </h1>
 										</div>
 										<div class="col-md-4">
 											<a class="btn btn-lg" title="" href="#signupSlice">
@@ -149,9 +148,9 @@
 									<div class="col-xs-9">
 										<h2>Know Your User In-store Time Metrics</h2>
                                         <ul>
-											<li>Know your store’s real-life bounce rate</li>
+											<li>Real-life bounce rate</li>
                                         
-                                        	<li>Know where people spend time in-store</li>
+                                        	<li>Customer's time spent in-store</li>
                                         </ul>
 									</div>
 								</div>
@@ -162,10 +161,11 @@
 										<i class="icon-users-outline  iconBig"></i>
 									</div>
 									<div class="col-xs-9">
-										<h2>Real-time Data on Your Loyalty Users</h2>
+										<h2>Get Real-time Data on Loyalty Users</h2>
                                         <ul>
-											<li>Know who visited your store last week but not this week</li>
-                                           <li> Discover who’s shopping but not buying, and why</li>
+											<li>In-store cart abandonment patterns</li>
+                                           
+                                           <li>User segmenation by aisle</li>
                                         </ul>
 									</div>
 								</div>
@@ -180,8 +180,8 @@
 									<div class="col-xs-9">
 										<h2>Promote More Sales</h2>
                                         <ul>
-											<li>Provide users real-time promotions in-store</li>
-                                            <li>Use real data to guage customer interest</li>
+											<li>Real-time hyperlocatilized promotions in-store</li>
+                                            <li>Non-returning customer reengagement</li>
                                         </ul>
 									</div>
 								</div>
@@ -192,10 +192,10 @@
 										<i class="icon-flow-merge iconBig"></i>
 									</div>
 									<div class="col-xs-9">
-										<h2>Easily Upgrade Your Current App</h2>
+										<h2>Easily Leverage Your Current Apps</h2>
 										<ul>
-											<li>Our SDK allows integration into existing apps</li>
-                                           
+											<li>Integrate our SDK into your existing apps</li>
+                                           <li>Connect with your existing Saleforce data</li>
                                         </ul>
 									</div>
 								</div>
@@ -209,8 +209,8 @@
 					<div class="maskParent">
 						<div class="paralaxMask"></div>
 						<div class="paralaxText container">
-							<i class="icon-mobile iconBig"></i><i class="icon-tablet iconBig"></i><i class="icon-laptop iconBig"></i><i class="icon-desktop iconBig"></i>
-							<blockquote class="bigTitle">Connect POS data, CRM data and Customer Foot traffic.</blockquote>
+                            
+							<blockquote class="bigTitle">Finally understand<br>your store foot traffic.<br>Take action.</blockquote>
 						</div>
 					</div>
 				</div>
@@ -221,8 +221,8 @@
 					<div class="container imgHover">
 						<div class="row">
 							<div class="col-lg-12">
-								<h1>Our API</h1>
-								<h2 class="subTitle">Our SDK allows businesses to integrate real-time customer geolocation data into Salesforce</h2>
+								<h1>Our Platform</h1>
+								<h2 class="subTitle">Our SDK allows businesses to integrate real-time in-store customer data into Salesforce.</h2>
 							</div>
 
 							<article class="col-sm-4">
@@ -239,10 +239,11 @@
 									</div>
 								</div>
 								<section class="newsText color4">
-									<h3>Proin lacinia eros sed </h3>
-									<h4 class="date">porttitor sagittis2</h4>
-									<p>T Curabitur porttitor leo in aliquet varius. Etiam sed elit in turpis vulputate blandit. Mauris tempus justo in lacus consequat, vitae sodales e</p>
-									
+									<h3>Data Collection</h3>
+									<ul>
+                                    	<li>Deeply Integrate with Salesforce</li>
+                                        <li>Uses iBeacon's triangulation in your store</li>
+									</ul>
 								</section>
 
 							</article>
@@ -259,10 +260,12 @@
 									</div>
 								</div>
 								<section class="newsText color4">
-									<h3>sodales scelerisque</h3>
-									<h4 class="date">auctor vehicula</h4>
-									<p>Proin lacinia eros sed porttitor sagittis. Donec suscipit, quam nec auctor vehicula, dolor sapien porttitor magna, vel mollis ligula est a turpis</p>
-									
+									<h3>Analytics App for Managers</h3>
+									<ul>
+                                    	<li>Real-time foot traffic visualizations </li>
+                                        <li>Detailed real-life analytics (Bounce rate, Time spent in store)</li>
+                                        <li>Segmentation of in-store traffic by department</li>
+									</ul>
 								</section>
 							</article>
 
@@ -278,10 +281,12 @@
 									</div>
 								</div>
 								<section class="newsText color4">
-									<h3>Csodales euismod eros pharetran</h3>
-									<h4 class="date">pretium tincidun</h4>
-									<p>Ut dignissim neque in risus porta, sodales euismod eros pharetra. Sed placerat ligula quis pretium tincidunt. Ut laoreet orci odio. Cras eget eros in erat scelerisque commodo consequat ut quam. </p>
-									
+									<h3>Deeply Integrate with Salesforce</h3>
+									<ul>
+                                    	<li>Connect customer foot traffic with POS data to finally understand real-life conversion rates</li>
+                                        <li>Enrich your user segment with real-life data directly inside your Salesforce CRM</li>
+                                        <li>Give managers instant access through your company's existing Salesforce account</li>
+									</ul>
 								</section>
 							</article>
 
@@ -307,7 +312,7 @@
 											<h3>Brad Smith</h3>
 											
 										</div>
-										<div class="boxContent"> <a href="mailto:bradsmithinc@gmail.com">bradsmithinc@gmail.com</a>
+										<div class="teamemail"> <a href="mailto:bradsmithinc@gmail.com">bradsmithinc@gmail.com</a>
 											
 										</div>
 									</article>
@@ -319,19 +324,7 @@
 											<h3>Max Domain</h3>
 											
 										</div>
-										<div class="boxContent"> <a href="mailto:maxime.domain@gmail.com">maxime.domain@gmail.com</a>
-											
-										</div>
-									</article>
-								</div>
-                                <div class="col-sm-6 col-md-3">
-									<article>
-										<div><img src="images/team/pic4.jpg" alt="" class="img-responsive"></div>
-										<div class="boxContent color4">
-											<h3>Nathan Ross</h3>
-											
-										</div>
-										<div class="boxContent"> <a href="mailto:nathantross@gmail.com">nathantross@gmail.com</a>
+										<div class="teamemail"> <a href="mailto:maxime.domain@gmail.com">maxime.domain@gmail.com</a>
 											
 										</div>
 									</article>
@@ -343,26 +336,12 @@
 											<h3>Laura Jensen</h3>
 											
 										</div>
-										<div class="boxContent"> <a href="mailto:designs@designlaurels.com">designs@designlaurels.co</a>
+										<div class="teamemail"> <a href="mailto:designs@designlaurels.com">designs@designlaurels.com</a>
 											
 										</div>
 									</article>
 								</div>
-                                
-                                 <div class="col-sm-6 col-md-3">
-									<article>
-										<div><img src="images/team/pic1.jpg" alt="" class="img-responsive"></div>
-										<div class="boxContent color4">
-											<h3>Dean Quinanola</h3>
-											
-										</div>
-										<div class="boxContent"> <a href="mailto:harvey@harveychan.net">deanq@deanq.com</a>
-											
-										</div>
-									</article>
-								</div>
-								
-                                
+                                      
                                 <div class="col-sm-6 col-md-3">
 									<article>
 										<div><img src="images/team/pic1.jpg" alt="" class="img-responsive"></div>
@@ -370,7 +349,7 @@
 											<h3>Harvey Chan</h3>
 											
 										</div>
-										<div class="boxContent"> <a href="mailto:harvey@harveychan.net">harvey@harveychan.net</a>
+										<div class="teamemail"> <a href="mailto:harvey@harveychan.net">harvey@harveychan.net</a>
 											
 										</div>
 									</article>
@@ -383,7 +362,7 @@
 											<h3>Prateek Gupta</h3>
 											
 										</div>
-										<div class="boxContent"> <a href="mailto:prateek@prateekgupta.org">Prateek@prateekgupta.org</a>
+										<div class="teamemail"> <a href="mailto:prateek@prateekgupta.org">Prateek@prateekgupta.org</a>
 											
 										</div>
 									</article>
@@ -401,12 +380,11 @@
 							<div class="row">
 
 							<div class="col-sm-12">
-								<h1 class="noSubtitle">Sign Up</h1>
+								<h1 class="noSubtitle">Sign Up For Beta</h1>
 							</div>
 							
 								<div class="col-sm-4">
-                               		 <h4>Thank you for your interest!</h4>
-                                     <br/>
+                               		
 									<h4>Contact Us:</h4>
 									<address>
 										sales@customerpath.io<br/>
@@ -417,31 +395,10 @@
 
 									<div class="col-sm-4"> 
 										<div class="form-group">
-											<label for="name">Name</label>
-											<input type="text" class="form-control" name="name" id="name" placeholder="Enter name"  title="Please enter your name (at least 2 characters)"/>
-										</div>
-										<div class="form-group">
 											<label for="email">Email</label>
 											<input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address"/>
-										</div>
-										<div class="form-group">
-											<label for="phone">Phone</label>
-											<input name="phone" class="form-control required digits" type="tel" id="phone" size="30" value="" placeholder="Enter email phone" title="Please enter a valid phone number (at least 10 characters)">
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="form-group">
-											<label for="comments">Comments</label>
-											<textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
-										</div>
-										<fieldset class="clearfix securityCheck">
-											<legend>Security</legend>
-											<div class="form-group">
-												<img src="js-plugin/neko-contact-ajax-plugin/php/image.php" alt="Image verification" id="verifyImg"/>
-												<input class="required "  id="verify" name="verify" type="text" >
-											</div>
-										</fieldset>
-									</div>                        
+										</div>	
+									</div>                      
 									<div class="col-md-8 col-md-offset-4">
 										<div class="result"></div>
 										<button name="submit" type="submit" class="btn btn-lg" id="submit"> Submit</button>
@@ -460,8 +417,8 @@
 					<div class="maskParent">
 						<div class="paralaxMask"></div>
 						<div class="paralaxText2 container">
-							<i class="icon-megaphone "></i>
-							<blockquote class="bigTitle">Proudly Built to Inegrate into Salesforce.</blockquote>
+							
+							<blockquote class="bigTitle">Proudly Built to Inegrate into Salesforce</blockquote>
 						</div>
 					</div>
 				</div>
