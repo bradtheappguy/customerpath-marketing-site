@@ -428,16 +428,13 @@
 							</div>
 							
 								<div class="col-sm-4">
+                               		 <h4>Thank you for your interest!</h4>
+                                     <br/>
 									<h4>Contact Us:</h4>
 									<address>
-										Email@email.com<br/>
-										-----<br/>
-										------ <br/>
+										sales@customerpath.io<br/>
 									</address>
-									<h4>Phone:</h4>
-									<address>
-										------ <br/>
-									</address>
+									
 								</div>
 								<form method="post" action="js-plugin/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm" role="form">
 
