@@ -58,7 +58,7 @@
 					<nav class="navbar navbar-default scrollMenu" role="navigation">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-							<a class="navbar-brand" href="index.html"><img src="images/CustomerPathLogo.png" alt="CustomerPath Logo"/></a> </div>
+							<a class="navbar-brand" href="/"><img src="images/CustomerPathLogo.png" alt="CustomerPath Logo"/></a> </div>
 							<div class="collapse navbar-collapse navbar-ex1-collapse" id="scrollTarget">
 								<ul class="nav navbar-nav pull-right">
 									<li class="active"><a href="#home"><i class="icon-home-outline"></i>Home</a> </li>
@@ -144,7 +144,7 @@
 							<div class="col-sm-6">
 								<div class="row boxFeature">
 									<div class="col-xs-3">
-										<i class="icon-heart iconBig"></i>
+										<i class="icon-home-outline iconBig"></i>
 									</div>
 									<div class="col-xs-9">
 										<h2>Know Your User In-store Time Metrics</h2>
@@ -159,7 +159,7 @@
 							<div class="col-sm-6">
 								<div class="row boxFeature">
 									<div class="col-xs-3">
-										<i class="icon-plane-outline  iconBig"></i>
+										<i class="icon-users-outline  iconBig"></i>
 									</div>
 									<div class="col-xs-9">
 										<h2>Real-time Data on Your Loyalty Users</h2>
@@ -175,7 +175,7 @@
 							<div class="col-sm-6">
 								<div class="row boxFeature">
 									<div class="col-xs-3">
-										<i class="icon-resize-full-outline iconBig"></i>
+										<i class="icon-chart iconBig"></i>
 									</div>
 									<div class="col-xs-9">
 										<h2>Promote More Sales</h2>
@@ -189,7 +189,7 @@
 							<div class="col-sm-6">
 								<div class="row boxFeature">
 									<div class="col-xs-3">
-										<i class="icon-edit iconBig"></i>
+										<i class="icon-flow-merge iconBig"></i>
 									</div>
 									<div class="col-xs-9">
 										<h2>Easily Upgrade Your Current App</h2>
@@ -298,23 +298,17 @@
 							<div class="row">
 								<div class="col-xs-12">
 									<h1>Meet our team</h1>
-									<h2 class="subTitle">....line about us</h2>
+									<h2 class="subTitle"></h2>
 								</div>
 								<div class="col-sm-6 col-md-3">
 									<article>
 										<div><img src="images/team/pic1.jpg" alt="" class="img-responsive"></div>
 										<div class="boxContent color4">
 											<h3>Brad Smith</h3>
-											<p>....</p>
+											
 										</div>
 										<div class="boxContent"> <a href="mailto:bradsmithinc@gmail.com">bradsmithinc@gmail.com</a>
-											<ul class="socialNetwork mt15">
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Dribble"><i class="icon-dribbble iconRounded"></i></a></li>
-											</ul>
+											
 										</div>
 									</article>
 								</div>
@@ -323,16 +317,10 @@
 										<div><img src="images/team/pic2.jpg" alt="" class="img-responsive"></div>
 										<div class="boxContent color4">
 											<h3>Max Domain</h3>
-											<p>....</p>
+											
 										</div>
-										<div class="boxContent"> <a href="mailto:....">....</a>
-											<ul class="socialNetwork mt15">
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Tumblr"><i class="icon-tumblr-1 iconRounded"></i></a></li>
-											</ul>
+										<div class="boxContent"> <a href="mailto:maxime.domain@gmail.com">maxime.domain@gmail.com</a>
+											
 										</div>
 									</article>
 								</div>
@@ -341,16 +329,10 @@
 										<div><img src="images/team/pic4.jpg" alt="" class="img-responsive"></div>
 										<div class="boxContent color4">
 											<h3>Nathan Ross</h3>
-											<p>....</p>
+											
 										</div>
 										<div class="boxContent"> <a href="mailto:nathantross@gmail.com">nathantross@gmail.com</a>
-											<ul class="socialNetwork mt15">
-												<li> <a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a> </li>
-												<li> <a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a> </li>
-												<li> <a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a> </li>
-												<li> <a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i> </a> </li>
-												<li> <a href="#" class="tips" title="" data-original-title="follow me on Flickr"><i class="icon-flickr iconRounded"></i> </a> </li>
-											</ul>
+											
 										</div>
 									</article>
 								</div>
@@ -359,16 +341,23 @@
 										<div><img src="images/team/pic3.jpg" alt="" class="img-responsive"></div>
 										<div class="boxContent color4">
 											<h3>Laura Jensen</h3>
-											<p>....</p>
+											
 										</div>
 										<div class="boxContent"> <a href="mailto:designs@designlaurels.com">designs@designlaurels.co</a>
-											<ul class="socialNetwork mt15">
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on YouTube"><i class="icon-youtube iconRounded"></i></a></li>
-											</ul>
+											
+										</div>
+									</article>
+								</div>
+                                
+                                 <div class="col-sm-6 col-md-3">
+									<article>
+										<div><img src="images/team/pic1.jpg" alt="" class="img-responsive"></div>
+										<div class="boxContent color4">
+											<h3>Dean Quinanola</h3>
+											
+										</div>
+										<div class="boxContent"> <a href="mailto:harvey@harveychan.net">deanq@deanq.com</a>
+											
 										</div>
 									</article>
 								</div>
@@ -379,16 +368,10 @@
 										<div><img src="images/team/pic1.jpg" alt="" class="img-responsive"></div>
 										<div class="boxContent color4">
 											<h3>Harvey Chan</h3>
-											<p>....</p>
+											
 										</div>
 										<div class="boxContent"> <a href="mailto:harvey@harveychan.net">harvey@harveychan.net</a>
-											<ul class="socialNetwork mt15">
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Dribble"><i class="icon-dribbble iconRounded"></i></a></li>
-											</ul>
+											
 										</div>
 									</article>
 								</div>
@@ -398,16 +381,10 @@
 										<div><img src="images/team/pic1.jpg" alt="" class="img-responsive"></div>
 										<div class="boxContent color4">
 											<h3>Prateek Gupta</h3>
-											<p>....</p>
+											
 										</div>
 										<div class="boxContent"> <a href="mailto:prateek@prateekgupta.org">Prateek@prateekgupta.org</a>
-											<ul class="socialNetwork mt15">
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
-												<li><a href="#" class="tips" title="" data-original-title="follow me on Dribble"><i class="icon-dribbble iconRounded"></i></a></li>
-											</ul>
+											
 										</div>
 									</article>
 								</div>
