@@ -47,7 +47,7 @@ if ($errors) {
 
 }else{
 
-	echo "send";
+	//echo "send";
 
     // Send the email
     $headers  = "From: $to" . PHP_EOL;
@@ -59,11 +59,11 @@ if ($errors) {
     $mailBody  = "New CustomerPath Beta Signup:" . PHP_EOL . PHP_EOL;
 	$mailBody .= "Email: $email " . PHP_EOL;
 	
-	echo "/headers".$headers;
-	echo "/mailBody".$mailBody;
+	//echo "/headers".$headers;
+	//echo "/mailBody".$mailBody;
 	
 	mail($to, $subject, $mailBody, $headers);
-
+	echo "mailed";
 
     if(mail($to, $subject, $mailBody, $headers)){
         echo '<div class="alert alert-success">Thank you for your signup.</div>';
