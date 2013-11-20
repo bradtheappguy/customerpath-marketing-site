@@ -1,4 +1,6 @@
 <?php
+ require_once "Mail.php";
+
 if ( !isset( $_SESSION ) ) session_start();
 if ( !$_POST ) exit;
 if ( !defined( "PHP_EOL" ) ) define( "PHP_EOL", "\r\n" );
