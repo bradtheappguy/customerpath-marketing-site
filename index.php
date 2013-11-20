@@ -9,7 +9,7 @@
 		<!-- Basic Page Needs
 		================================================== -->
 		<meta charset="utf-8">
-		<title>CustomerPath - Finally understand your store foot traffic. Take action.</title>
+		<title>CustomerPath - Finally understand your store foot traffic and make it actionable.</title>
 		<meta name="description" content="CustomerPath helps businesses understand their customer base through real-time analytics integrated into Salesforce.">
 		<!-- Mobile Specific Metas
 		================================================== -->
@@ -81,18 +81,24 @@
 									<ul class="slides">
 										<li>
 											<h1>CustomerPath</h1>
-											<h2>Finally understand your store foot traffic. Take action.</h2>
+											<h2>Finally understand your store foot traffic and make it actionable.</h2>
 										</li>
                                         <li>
-											<h1>In-Store Analytics Made Simple</h1>
-                                            
+											<h1>Customer tracking, aisle per aisle</h1>
+                                            <h2>iBeacon Triangulation & WIFI tracking</h2>
 										</li>
                                         <li>
-											<h1>Quick, Easy Installation</h1>
-											<h2>Simply add our SDK to your mobile application to get quick and easy user location data.</h2>
+											<h1>Easy Integration</h1>
+											<h2>Simply add our SDK to your existing apps and get aisle-level customer data.</h2>
 										</li>
+                                         <li>
+											<h1>Actionable Data</h1>
+                                           <h2>Leverage our real-time analytics iPad app and direct salesforce integration.</h2>
+											
+										</li>    
 										<li>
-											<h1>Supercharge Your Sales</h1>
+											<h1>Take Action</h1>
+                                            
 											<a class="btn btn-sm2" title="" href="#signupSlice">
 												<i class="icon-flash"></i> Sign Up Now
 											</a>
