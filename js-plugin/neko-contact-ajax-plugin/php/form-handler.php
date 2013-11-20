@@ -60,11 +60,26 @@ if ($errors) {
 
     $mailBody  = "New CustomerPath Beta Signup:" . PHP_EOL . PHP_EOL;
 	$mailBody .= "Email: $email " . PHP_EOL;
-	
+
+
+
+ $smtp = Mail::factory('smtp',
+   array ('host' => 'mailtrap.io',
+     'port' => '2525',
+     'auth' => true,
+     'username' => 'heroku-eb43b9cdf218ec4b',
+     'password' => '88600ec8738019c7'));
+
 	//echo "/headers".$headers;
 	//echo "/mailBody".$mailBody;
+
+ $headers = array ('From' => $from,
+   'To' => $to,
+   'Subject' => $subject);
 	
-	mail($to, $subject, $mailBody, $headers);
+  $mail = $smtp->send($to, $headers, $mailBody);
+
+
 	echo "mailed";
 
     if(mail($to, $subject, $mailBody, $headers)){
