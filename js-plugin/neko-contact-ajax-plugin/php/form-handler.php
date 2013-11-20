@@ -5,7 +5,7 @@ if ( !defined( "PHP_EOL" ) ) define( "PHP_EOL", "\r\n" );
 
 
 $to = "design@designlaurels.com";
-$subject = "CustomPath Contact Form ";
+$subject = "CustomPath Contact Form";
 
 
 
