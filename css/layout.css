@@ -893,17 +893,28 @@ width: 60px;
 @media(max-width:767px){
 
 .navbar-brand>img{
-    
+    width: 210px;
 	padding-top:0px;
     }
-
+#flexHome h1 {
+    font-size: 25px;
+}
+#flexHome h2 {
+    font-size: 12px;
+}
+.flex-active-slide .btn {
+	display:none;
+}
+#team .col-md-3 {
+    width: 100%;
+}
 
 }
 
 @media(min-width:768px){
 
     .navbar-brand>img{
-    width: 290px;
+    width: 240px;
 	padding-top:0px;
     }
 

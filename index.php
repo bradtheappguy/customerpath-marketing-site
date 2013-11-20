@@ -9,7 +9,7 @@
 		<!-- Basic Page Needs
 		================================================== -->
 		<meta charset="utf-8">
-		<title>CustomerPath - Quick Geolocation Analytics</title>
+		<title>CustomerPath - Finally understand your store foot traffic. Take action.</title>
 		<meta name="description" content="CustomerPath helps businesses understand their customer base through real-time analytics integrated into Salesforce.">
 		<!-- Mobile Specific Metas
 		================================================== -->
@@ -228,14 +228,14 @@
 							<article class="col-sm-4">
 
 								<section class="imgWrapper"> 
-									<img src="images/api/api1.jpg" class="img-responsive" alt="image" /> 
+									<img src="images/api/api1.png" class="img-responsive" alt="image" /> 
 								</section>
 
 								<div class="mediaHover">
 									<div class="mask"></div>
 									<div class="iconLinks"> 
 
-										<a href="images/api/api1.jpg" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
+										<a href="images/api/api1.png" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
 									</div>
 								</div>
 								<section class="newsText color4">
@@ -251,12 +251,12 @@
 
 							<article class="col-sm-4">
 								<section class="imgWrapper"> 
-									<img src="images/api/api2.jpg" class="img-responsive" alt="image" /> 
+									<img src="images/api/api2.png" class="img-responsive" alt="image" /> 
 								</section>
 								<div class="mediaHover">
 									<div class="mask"></div>
 									<div class="iconLinks"> 
-										<a href="images/api/api2.jpg" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
+										<a href="images/api/api2.png" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
 									</div>
 								</div>
 								<section class="newsText color4">
@@ -272,12 +272,12 @@
 
 							<article class="col-sm-4">
 								<section class="imgWrapper"> 
-									<img src="images/api/api3.jpg" class="img-responsive" alt="image" /> 
+									<img src="images/api/api3.png" class="img-responsive" alt="image" /> 
 								</section>
 								<div class="mediaHover">
 									<div class="mask"></div>
 									<div class="iconLinks"> 
-										<a href="images/api/api3.jpg" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
+										<a href="images/api/api3.png" class="image-link" title="Zoom" ><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a> 
 									</div>
 								</div>
 								<section class="newsText color4">

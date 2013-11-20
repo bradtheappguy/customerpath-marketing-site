@@ -62,13 +62,14 @@ h2.subTitle:after, h1.noSubtitle:after{
 	background-color:#3d0b06;
 }
 #home {
-	/*background-image:url('../images/theme-pics/paralax-grey-3.jpg');*/
+	background-image: url('../images/theme-pics/paralax-home.png');
+	background-color:#4c1611;
 }
 #paralaxSlice1 {
 	background-image: url('../images/theme-pics/paralax-1.jpg');
 }
 #paralaxSlice2 {
-	/*background-image: url('../images/theme-pics/paralax-grey-2.jpg');*/
+	background-image: url('../images/theme-pics/paralax-1.png');
 	background-color:#4c1611;
 }
 #paralaxSlice3 {
@@ -428,6 +429,10 @@ legend {
 	font-size:14px;
 }
 
+.mfp-figure:after {
+	background-color:#fff;
+	/*background-color:#4C1611;*/
+}
 
 /* END CSS FRAMEWORK
 ================================================== */
