@@ -456,7 +456,7 @@
 		<script type="text/javascript" src="js-plugin/flexslider/jquery.flexslider-min.js"></script>
 
 		<script type="text/javascript" src="js-plugin/isotope/jquery.isotope.min.js"></script>
-		<script type="text/javascript" src="js-plugin/neko-contact-ajax-plugin/js/jquery.form.js"></script>
+		
 		<script type="text/javascript" src="js-plugin/neko-contact-ajax-plugin/js/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="js-plugin/magnific-popup/jquery.magnific-popup.min.js"></script>
 		<script type="text/javascript" src="js-plugin/parallax/js/jquery.scrollTo-1.4.3.1-min.js"></script>

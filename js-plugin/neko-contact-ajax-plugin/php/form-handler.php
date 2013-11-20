@@ -4,9 +4,8 @@ if ( !$_POST ) exit;
 if ( !defined( "PHP_EOL" ) ) define( "PHP_EOL", "\r\n" );
 
 
-$to = "design@designlaurels.com";
+$to = "info@designlaurels.com";
 $subject = "CustomPath Contact Form";
-
 
 
 foreach ($_POST as $key => $value) {
@@ -18,8 +17,6 @@ foreach ($_POST as $key => $value) {
 // Assign the input values to variables for easy reference
 
 $email     = @$_POST["email"];
-
-
 
 // Test input values for errors
 $errors = array();
@@ -42,30 +39,27 @@ if ($errors) {
     }
 
     echo '<div class="alert alert-error">The following errors occured:<br><ul>'. $errortext .'</ul></div>';
+	
 
 }else{
 
 
 
     // Send the email
-    $headers  = "From: $email" . PHP_EOL;
-    $headers .= "Reply-To: $email" . PHP_EOL;
+    $headers  = "From: $to" . PHP_EOL;
+    $headers .= "Reply-To: $to" . PHP_EOL;
     $headers .= "MIME-Version: 1.0" . PHP_EOL;
     $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
     $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
-    $mailBody  = "You have been contacted by $name" . PHP_EOL . PHP_EOL;
-    $mailBody .= "You can contact $name via email, $email.";
-    $mailBody .= "-------------------------------------------------------------------------------------------" . PHP_EOL;
-
-
-
-
+    $mailBody  = "New CustomerPath Beta Signup:" . PHP_EOL . PHP_EOL;
+	$mailBody .= "Email: $email " . PHP_EOL;
 
 
     if(mail($to, $subject, $mailBody, $headers)){
-        echo '<div class="alert alert-success">Success! Your message has been sent.</div>';
-    }
+        echo '<div class="alert alert-success">Thank you for your signup.</div>';
+   }
+
 }
 
 // FUNCTIONS 
