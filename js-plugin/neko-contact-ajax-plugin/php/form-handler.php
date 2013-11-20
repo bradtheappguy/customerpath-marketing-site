@@ -7,8 +7,8 @@ if ( !defined( "PHP_EOL" ) ) define( "PHP_EOL", "\r\n" );
 $to = "info@designlaurels.com";
 $subject = "CustomPath Contact Form";
 
-echo "/to".$to;
-echo "subject".$subject;
+//echo "/to".$to;
+//echo "subject".$subject;
 
 foreach ($_POST as $key => $value) {
     if (ini_get('magic_quotes_gpc'))
@@ -19,7 +19,7 @@ foreach ($_POST as $key => $value) {
 // Assign the input values to variables for easy reference
 
 $email     = @$_POST["email"];
-echo "email".$email;
+//echo "email".$email;
 
 // Test input values for errors
 $errors = array();
@@ -33,7 +33,7 @@ if(isset($_POST["email"])){
     }
 }
  
-echo "/email2";
+//echo "/email2";
 
 if ($errors) {
         // Output errors and die with a failure message
@@ -58,6 +58,11 @@ if ($errors) {
 
     $mailBody  = "New CustomerPath Beta Signup:" . PHP_EOL . PHP_EOL;
 	$mailBody .= "Email: $email " . PHP_EOL;
+	
+	echo "/headers".$headers;
+	echo "/mailBody".$mailBody;
+	
+	mail($to, $subject, $mailBody, $headers);
 
 
     if(mail($to, $subject, $mailBody, $headers)){
